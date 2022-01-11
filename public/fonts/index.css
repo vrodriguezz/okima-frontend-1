@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 700;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Bold.otf') format('opentype');
+}
+
+.react-tel-input{
+  width: 100%;
+  height: 56px;
+  border-radius: 8px !important;
+  border-color: rgba(145, 158, 171, 0.32) !important;
+}
+.react-tel-input .form-control{
+  width: 100% !important;
+  height: 56px !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+  border-color: rgba(145, 158, 171, 0.32) !important;
+}
+
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus,
+.react-tel-input .flag-dropdown.open .selected-flag,
+.flag-dropdown{
+  border-radius: 8px 0 0 8px !important;
+  border-color: rgba(145, 158, 171, 0.32) !important;
+}
